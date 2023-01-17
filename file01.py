@@ -12,5 +12,6 @@ def main(data:str):
 
          list.append(int(i))
     return list
+    
 f=open('txt_file/data01.txt').read()
 print(main(f))
