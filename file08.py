@@ -11,6 +11,7 @@ def main(data:str):
     for i in data:
         if i.isdigit():
             ans.append(int(i))
+            
     return max(ans)
 
 print(main(open('txt_file/data08.txt').read()))
